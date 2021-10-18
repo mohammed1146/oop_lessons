@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    container_name: oop_nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+    networks:
+      - oop
+
+  php:
+    build:
+      context: .
+      dockerfile: php/Dockerfile
+    container_name: oop_php
+    volumes:
+      - ./src:/var/www/html
+    networks:
+      - oop
+
+networks:
+  oop:
+    driver: bridge
