@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\SummationTest::summation_test":3,"Tests\\SummationTest::test_can_mulitple":3},"times":{"Tests\\SummationTest::summation_test":0.001,"Tests\\SummationTest::test_can_mulitple":0}}
