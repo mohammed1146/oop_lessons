@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Muliple
+class Multiple
 {
     public function multiple(int $a, int $b): int
     {

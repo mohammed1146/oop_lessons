@@ -1,13 +1,12 @@
 <?php
-namespace Tests;
+namespace Tests\Unit;
 
 use App\Summation;
-use App\Muliple;
+use App\Multiple;
 use PHPUnit\Framework\TestCase;
 
 class SummationTest extends TestCase
 {
-    //TDD
     /** @test */
     public function summation_test()
     {
@@ -21,7 +20,7 @@ class SummationTest extends TestCase
 
     public function test_can_mulitple()
     {
-        $multipleObj = new Muliple();
+        $multipleObj = new Multiple();
 
         $result = $multipleObj->multiple(10, 10);
 

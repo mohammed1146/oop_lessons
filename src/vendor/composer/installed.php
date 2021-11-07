@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '42d2db7c167dedef200e6dbfb1cdf2b5c5a2df9f',
+        'reference' => '89b057cbd58c96cefc56bf7159a0f84d03f44487',
         'name' => 'mohammed/src',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '42d2db7c167dedef200e6dbfb1cdf2b5c5a2df9f',
+            'reference' => '89b057cbd58c96cefc56bf7159a0f84d03f44487',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
@@ -41,12 +41,12 @@
             ),
         ),
         'nikic/php-parser' => array(
-            'pretty_version' => 'v4.13.0',
-            'version' => '4.13.0.0',
+            'pretty_version' => 'v4.13.1',
+            'version' => '4.13.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
-            'reference' => '50953a2691a922aa1769461637869a0a2faa3f53',
+            'reference' => '63a79e8daa781cac14e5195e63ed8ae231dd10fd',
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
